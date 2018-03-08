@@ -1,4 +1,7 @@
-(in-package :go-test)
+;;;; mcst.lisp
+
+(in-package #:mcst)
+
 ;; node - number or list
 (defun node (win count)
   (list :leaf win count))
